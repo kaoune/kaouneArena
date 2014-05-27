@@ -1,0 +1,86 @@
+-debug
+-target:library
+-nowarn:0169
+-out:Temp/Assembly-CSharp.dll
+-r:"C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll"
+-r:"C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll"
+-define:UNITY_STANDALONE_WIN
+-define:ENABLE_MICROPHONE
+-define:ENABLE_TEXTUREID_MAP
+-define:ENABLE_AUDIO_FMOD
+-define:UNITY_STANDALONE
+-define:ENABLE_MONO
+-define:ENABLE_TERRAIN
+-define:ENABLE_SUBSTANCE
+-define:ENABLE_GENERICS
+-define:ENABLE_MOVIES
+-define:ENABLE_WWW
+-define:ENABLE_IMAGEEFFECTS
+-define:ENABLE_WEBCAM
+-define:RENDER_SOFTWARE_CURSOR
+-define:ENABLE_NETWORK
+-define:ENABLE_PHYSICS
+-define:ENABLE_CACHING
+-define:ENABLE_CLOTH
+-define:ENABLE_SHADOWS
+-define:ENABLE_AUDIO
+-define:ENABLE_DUCK_TYPING
+-define:ENABLE_SINGLE_INSTANCE_BUILD_SETTING
+-define:UNITY_4_2_2
+-define:UNITY_4_2
+-define:ENABLE_PROFILER
+-define:UNITY_EDITOR
+-define:UNITY_EDITOR_WIN
+Assets/scripts/Bullet.cs
+Assets/scripts/Target.cs
+Assets/scripts/rayshoot.cs
+"Assets/scripts/set one/Bag.cs"
+"Assets/scripts/set one/Item.cs"
+"Assets/scripts/set one/Life.cs"
+"Assets/scripts/set one/Mana.cs"
+"Assets/scripts/set one/MoveChar.cs"
+"Assets/scripts/set one/Player_move.cs"
+"Assets/scripts/set one/Pool.cs"
+"Assets/scripts/set one/PoolAble.cs"
+"Assets/scripts/set one/animation_time.cs"
+"Assets/scripts/set one/bullets.cs"
+"Assets/scripts/set one/cubes.cs"
+"Assets/scripts/set one/detectPlayer.cs"
+"Assets/scripts/set one/dors.cs"
+"Assets/scripts/set one/enemiesMove.cs"
+"Assets/scripts/set one/generator.cs"
+"Assets/scripts/set one/hidePublic.cs"
+"Assets/scripts/set one/kaoune.cs"
+"Assets/scripts/set one/miltiSphere.cs"
+"Assets/scripts/set one/nidle.cs"
+"Assets/scripts/set one/noGravity.cs"
+"Assets/scripts/set one/setups.cs"
+"Assets/scripts/set one/shootBullets.cs"
+"Assets/scripts/set one/sort_array.cs"
+"Assets/scripts/set one/spaceEnemies.cs"
+"Assets/scripts/set one/spacePLayer.cs"
+"Assets/scripts/set one/the_finger.cs"
+"Assets/scripts/set three/FovBySpeed.cs"
+"Assets/scripts/set three/Player.cs"
+"Assets/scripts/set three/PlayerNetwork.cs"
+"Assets/scripts/set three/Pod.cs"
+"Assets/scripts/set three/Pod1.cs"
+"Assets/scripts/set three/PodPhysic.cs"
+"Assets/scripts/set three/Profile.cs"
+"Assets/scripts/set three/checkpoint.cs"
+"Assets/scripts/set three/scoreManager.cs"
+"Assets/scripts/set three/scoreTest.cs"
+"Assets/scripts/set three/startRace.cs"
+"Assets/scripts/set three/testServer.cs"
+"Assets/scripts/set two/Create.cs"
+"Assets/scripts/set two/Cursor.cs"
+"Assets/scripts/set two/Cycle.cs"
+"Assets/scripts/set two/GameManager.cs"
+"Assets/scripts/set two/Kaoune.cs"
+"Assets/scripts/set two/SpectreAnalyser.cs"
+"Assets/scripts/set two/StartRunButton.cs"
+"Assets/scripts/set two/TimeLabel.cs"
+"Assets/scripts/set two/babylon.cs"
+"Assets/scripts/set two/guiName.cs"
+-r:"C:/Program Files (x86)/3D/Unity/Editor/Data/Mono\lib/mono/unity\System.Runtime.Serialization.dll"
+-r:"C:/Program Files (x86)/3D/Unity/Editor/Data/Mono\lib/mono/unity\System.Xml.Linq.dll"

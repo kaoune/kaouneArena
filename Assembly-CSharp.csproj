@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{086F06B5-3EA7-F940-9AE6-828D82797AA6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_STANDALONE_WIN;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;UNITY_STANDALONE;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_2_2;UNITY_4_2;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/3D/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\scripts\Bullet.cs" />
+     <Compile Include="Assets\scripts\Target.cs" />
+     <Compile Include="Assets\scripts\rayshoot.cs" />
+     <Compile Include="Assets\scripts\set one\Bag.cs" />
+     <Compile Include="Assets\scripts\set one\Item.cs" />
+     <Compile Include="Assets\scripts\set one\Life.cs" />
+     <Compile Include="Assets\scripts\set one\Mana.cs" />
+     <Compile Include="Assets\scripts\set one\MoveChar.cs" />
+     <Compile Include="Assets\scripts\set one\Player_move.cs" />
+     <Compile Include="Assets\scripts\set one\Pool.cs" />
+     <Compile Include="Assets\scripts\set one\PoolAble.cs" />
+     <Compile Include="Assets\scripts\set one\animation_time.cs" />
+     <Compile Include="Assets\scripts\set one\bullets.cs" />
+     <Compile Include="Assets\scripts\set one\cubes.cs" />
+     <Compile Include="Assets\scripts\set one\detectPlayer.cs" />
+     <Compile Include="Assets\scripts\set one\dors.cs" />
+     <Compile Include="Assets\scripts\set one\enemiesMove.cs" />
+     <Compile Include="Assets\scripts\set one\generator.cs" />
+     <Compile Include="Assets\scripts\set one\hidePublic.cs" />
+     <Compile Include="Assets\scripts\set one\kaoune.cs" />
+     <Compile Include="Assets\scripts\set one\miltiSphere.cs" />
+     <Compile Include="Assets\scripts\set one\nidle.cs" />
+     <Compile Include="Assets\scripts\set one\noGravity.cs" />
+     <Compile Include="Assets\scripts\set one\setups.cs" />
+     <Compile Include="Assets\scripts\set one\shootBullets.cs" />
+     <Compile Include="Assets\scripts\set one\sort_array.cs" />
+     <Compile Include="Assets\scripts\set one\spaceEnemies.cs" />
+     <Compile Include="Assets\scripts\set one\spacePLayer.cs" />
+     <Compile Include="Assets\scripts\set one\the_finger.cs" />
+     <Compile Include="Assets\scripts\set three\FovBySpeed.cs" />
+     <Compile Include="Assets\scripts\set three\Player.cs" />
+     <Compile Include="Assets\scripts\set three\PlayerNetwork.cs" />
+     <Compile Include="Assets\scripts\set three\Pod.cs" />
+     <Compile Include="Assets\scripts\set three\Pod1.cs" />
+     <Compile Include="Assets\scripts\set three\PodPhysic.cs" />
+     <Compile Include="Assets\scripts\set three\Profile.cs" />
+     <Compile Include="Assets\scripts\set three\checkpoint.cs" />
+     <Compile Include="Assets\scripts\set three\scoreManager.cs" />
+     <Compile Include="Assets\scripts\set three\scoreTest.cs" />
+     <Compile Include="Assets\scripts\set three\startRace.cs" />
+     <Compile Include="Assets\scripts\set three\testServer.cs" />
+     <Compile Include="Assets\scripts\set two\Create.cs" />
+     <Compile Include="Assets\scripts\set two\Cursor.cs" />
+     <Compile Include="Assets\scripts\set two\Cycle.cs" />
+     <Compile Include="Assets\scripts\set two\GameManager.cs" />
+     <Compile Include="Assets\scripts\set two\Kaoune.cs" />
+     <Compile Include="Assets\scripts\set two\SpectreAnalyser.cs" />
+     <Compile Include="Assets\scripts\set two\StartRunButton.cs" />
+     <Compile Include="Assets\scripts\set two\TimeLabel.cs" />
+     <Compile Include="Assets\scripts\set two\babylon.cs" />
+     <Compile Include="Assets\scripts\set two\guiName.cs" />
+     <None Include="Assets\shaders\hologram.shader" />
+     <None Include="Assets\shaders\NewShader.shader" />
+     <None Include="Assets\shaders\myDiffuse.shader" />
+     <None Include="Assets\shaders\rim.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
